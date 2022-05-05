@@ -1,2 +1,45 @@
 /* MILESTONE 3
 Applica uno stile differente a seconda del valore dell’indice per i multipli di 3, per i multipli di 5 e per i valori che sono sia multipli di 3 che di 5. */
+
+body {
+    background-color: #083B4C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 50px auto;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin: 100px auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+}
+  
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #1389B2;
+}
+
+.FizzBuzz {
+    background-color: #F0466F;
+}
+  
+.Fizz {
+    background-color: #0BD6A1;
+}
+  
+.Buzz {
+    background-color: #FFD166;
+}

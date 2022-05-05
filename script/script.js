@@ -13,7 +13,7 @@ for (let i = 1; i <= 100; i++){
 
     if((i%3 == 0) && (i%5 == 0)){
         console.log ("FizzBuzz");
-        const element=`<div class="FizzBuzz container--${i}"> FizzBuzz </div>`;
+        const element=`<div class="box FizzBuzz --${i}">FizzBuzz</div>`;
         div.innerHTML += element;
     }
 
@@ -21,7 +21,7 @@ for (let i = 1; i <= 100; i++){
 
     else if(i%3 == 0){
         console.log ("Fizz");
-        const element=`<div class="Fizz container--${i}"> Fizz </div>`;
+        const element=`<div class="box Fizz --${i}">Fizz</div>`;
         div.innerHTML += element;
     }
 
@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++){
 
     else if ((i%5 == 0)){
         console.log ("Buzz");
-        const element=`<div class="Buzz container--${i}"> Buzz </div>`;
+        const element=`<div class="box Buzz --${i}">Buzz</div>`;
         div.innerHTML += element;
     }
 
@@ -37,7 +37,7 @@ for (let i = 1; i <= 100; i++){
 
     else {
         console.log (i);
-        const element=`<div class="container container--${i}"> ${i} </div>`;
+        const element=`<div class="box container--${i}">${i}</div>`;
         div.innerHTML += element;
     }
 }
